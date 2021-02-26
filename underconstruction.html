@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>KnowHow - Main 1</title>
+<title>KnowHow - Under Construction</title>
 
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -59,18 +59,18 @@
 <script type="text/javascript" src="layout/plugins/iconmenu/jquery.iconmenu.js"></script>
 <!-- Icon Menu end -->
 
+<script type="text/javascript" src="layout/js/timer.js"></script>
+
 <script type="text/javascript" src="layout/js/main.js"></script>
 
 <script type="text/javascript">
-	jQuery(function () {
-		
-	});
+	var target_date = new Date(2013 , 9 , 21);// set date for page timer
 </script>
 
 </head>
 
 <body>
-	<div class="wrapper v_centred_menu main_1 sticky_footer">
+	<div class="wrapper main_1 sticky_footer">
     	<!-- HEADER BEGIN -->
         <header>
             <div id="header">
@@ -86,20 +86,6 @@
                         <div class="clearboth"></div>
                     </div>
                 </section>
-                    
-                <section class="header_bottom">
-                    <div class="inner">
-                        <nav class="menu_1">
-                            <ul>
-                              <li class="one"><a href="index-2.html">01.Home<span></span></a></li>
-                              <li class="two"><a href="about.html">02.About<span></span></a></li>
-                              <li class="three"><a href="#">03.Works<span></span></a></li>
-                              <li class="four"><a href="blog.html">04.Blog<span></span></a></li>
-                              <li class="five"><a href="mail.html">05.Mail<span></span></a></li>
-                          </ul>
-                        </nav>
-                    </div>
-                </section>
             </div>
         </header>
     	<!-- HEADER END -->
@@ -111,7 +97,46 @@
                 <!-- BEFORE CONTENT SECTION END -->
                 
             	<div class="content_main">
-                    
+                    <div class="block_countdown">
+						<ul>
+							<li>
+								<div class="date">
+									<div id="days" class="num">00</div>
+									<p>days</p>
+								</div>
+							</li>
+							<li>
+								<div id="b_hours" class="date">
+									<div id="hours" class="num">00</div>
+									<p>hours</p>
+								</div>
+							</li>
+							<li>
+								<div class="date">
+									<div id="minutes" class="num">00</div>
+									<p>minutes</p>
+								</div>
+							</li>
+							<li>
+								<div class="date">
+									<div id="seconds" class="num">00</div>
+									<p>seconds</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="block_underconstruction">
+						<p class="text_1">We are working on a new site. Please don't forget to check when launch.</p>
+						<p class="text_2">you can use the form below to subscribe to our newsletter.</p>
+						
+						<div class="block_subscribe">
+                        	<div class="field"><input type="text"></div>
+                            <div class="button"><a href="#" class="general_button">Subscribe</a></div>
+                            
+                            <div class="clearboth"></div>
+                        </div>
+					</div>
                 </div>
                 
                 <div class="clearboth"></div>
@@ -129,7 +154,7 @@
                 	<div class="inner">
                     	<nav class="bottom_menu">
                         	<ul>
-                                <li class="current_page_item"><a href="index-2.html">Home</a></li>
+                                <li><a href="index-2.html">Home</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="#">Works</a></li>
                                 <li><a href="blog.html">Blog</a></li>
