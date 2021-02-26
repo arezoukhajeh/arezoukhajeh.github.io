@@ -1,0 +1,5 @@
+{
+    ".enableCommit": true,
+    ".ignoreLegacyWarning": true,
+    ".enableCommitSigning": true
+}
